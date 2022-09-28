@@ -1,0 +1,196 @@
+*
+{
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+list-style-type: none;
+}
+ body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+  .navbar-nav{
+   display: flex;
+   width: 80%;
+   justify-content: center;
+}  
+.nav-item{
+    padding-left: 30px;
+} 
+.container-fluid a{
+    padding-left: 20px;
+}
+.navbar{
+    background-color:rgb(43, 141, 230) ;
+}
+.vadd{
+    background-image: linear-gradient( to bottom, rgba(43, 141, 230), rgb(126, 128,239) );
+    padding: 5% 30%;
+}
+.class {
+   padding-top: 40px;
+   font-family: sans-serif;
+   padding: 5%;
+}
+.class p{
+    width: 220px;
+    text-align: center;
+    color: rgb(84, 83, 80);
+}
+.class h2{
+   padding-left: 30px;
+   font-weight: 800;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.fad p{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    color: white;
+    width: 260px;
+}
+ .lead.sad{
+   margin-right: 80px;
+   text-align: center;
+}
+.circle i{
+    font-size: 40px;
+    color: purple;
+}
+.circle{
+  text-align: end;
+   width: 130px;
+    }
+.color{
+    background-image: linear-gradient( to bottom, rgba(43, 141, 230), rgb(126, 128,239) );
+}
+.friend{
+    color: white;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.friend1{
+    margin-right: 30px;
+    padding: 2% 10%;
+}
+/* For mobile phones: */
+ [class*="col-"] {
+    width: 100%;
+  } 
+  footer{
+    background-color: rgb(240, 233, 233);
+    padding: 5% 15%;
+  }
+.bad h5{
+   padding-left:30px ;
+   width: 200px;
+   display: flex;
+}
+.bad ul li{
+    display: flex;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3%;
+}
+.subscribe input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid purple;
+}
+.subscribe button{
+    padding: 10px;
+    background-color: purple;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+.last{
+    text-align: center;
+}
+.last a{
+    text-decoration: none;
+    color: black;
+}
+.mann{
+    text-align: center;
+    padding: 2%;
+}
+.cup{
+    border-bottom: 2px solid rgb(6, 6, 6);
+    height: 5px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media only screen and (max-width:768px){
+    .fad p{
+    text-align: center;
+    width: 100%;
+    }
+    .fad img{
+    width: 70%;
+    margin-left:75px;
+    background-position: 100% 100%;
+    background-size: 100%;
+    margin-bottom: 40px;
+    }
+    .circle{
+    text-align: end;
+    width: 100%;
+    text-align: center;
+    }
+    .class p{
+        width: 100%;
+        text-align: center;
+        color: rgb(84, 83, 80);
+    }
+    .class h2{
+        width: 100%;
+        text-align: center;
+    }
+    .friend1 img{
+        padding: 0;
+    }
+    .friend{
+        text-align: center;
+    }
+    .bad{
+      padding:1% 15%;
+    }
+    .bad ul li{
+        padding-left: 200px;
+    }
+    .bad h5{
+        padding-left: 225px;
+        width: 100%;
+    }
+}
+/* @media  (max-width:992px){
+   .row{
+    padding-right: 80px;
+   }
+   .bad h5{
+   width: 350px;
+   }
+   .class p{
+    width: 100%;
+    color: rgb(84, 83, 80);
+    padding-left:100px;
+}
+.class h2{
+    width: 100%;
+    padding-left:100px;
+}
+.fad img{
+    background-position: 100% 100%;
+    background-size: 100%;
+    width: 200px;
+}
+} */
